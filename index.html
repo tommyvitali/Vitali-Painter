@@ -13,14 +13,16 @@
         
         
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/lightbox.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/aos.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         <script src="https://kit.fontawesome.com/e4ab9ad31f.js"></script>
-        <script
-            src="http://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-            crossorigin="anonymous"></script>
-        <script src="resources/js/main.js"></script>
+        
+        
+        
+        
+        
         
         
         <title>Tommaso Vitali Artist</title>
@@ -32,14 +34,14 @@
 
                         
                         <div class="logo">
-                            <img  src="resources/img/Senza titolo-4.png" alt="logo">
-    
+                            <img data-tilt src="resources/img/Tv2.png" alt="logo">
+
                             <nav>
                                     <ul class="main-nav">
-                                            <li><a href="#aboutlink">ABOUT</a></li>
-                                            <li><a href="#paintingslink">PAINTINGS</a></li>
-                                            <li><a href="#printslink">PRINTS</a></li>
-                                            <li><a href="#contactslink">CONTACTS</a></li>
+                                            <li data-aos="fade-zoom-in"><a href="#aboutlink">ABOUT</a></li>
+                                            <li data-aos="fade-zoom-in" data-aos-delay="100"><a href="#paintingslink">PAINTINGS</a></li>
+                                            <li data-aos="fade-zoom-in" data-aos-delay="200"><a href="#printslink">PRINTS</a></li>
+                                            <li data-aos="fade-zoom-in" data-aos-delay="300"><a href="#contactslink">CONTACTS</a></li>
                                         
                                         </ul>
                             </nav>
@@ -49,10 +51,7 @@
                               <p class="title1">"italian finest art"</p>
                             <p class="secondtitle">Emotional Paintings from Italy...</p>
                         </div>
-                        <div class="social">
-                                <a href="#" class="icons"><i class="fab fa-facebook-square"></i></a> 
-                                <a href="#" class="icons"><i class="fab fa-instagram"></i></a>
-                        </div>
+                        
 
 
 
@@ -62,71 +61,484 @@
                     
                 </header>
 
-                <section class="aboutsection">
-                    <h1>About tommaso vitali</h1>
-
+                <section class="aboutsection" >
+                    
+                    <a id="aboutlink"></a>
                     
                     <div class="about">
                         <div class="whois">
-                            <h2>WHO IS TOMMASO VITALI</h2>
-                            <p>Tommaso Vitali was born in Florence (ITALY) in 1974.He developed interest in art since very young age.He started with the study of classical music, and only later he got close to visual arts.<br></p>
-                            <h2>ART AND STYLE</h2>
-                                <p>He considers his paintings <span>"emotional abstracts"</span>.Focusing his art on the mix of colors and textures,
-                                he creates <span>abstract paintings</span> and original <span>"sculptured" paintings</span>,
-                                 inspired by the master works of his father Carlo Vitali, a well known painter in the Italian and international art scene.</p>
+                                <div class="text">
+                                    <h2>ABOUT TOMMASO VITALI</h2>
+                                    <p>Tommaso Vitali was born in Florence (ITALY) in 1974.He developed interest in art since very young age.He started with the study of classical music, and only later he got close to visual arts.<br></p>
+                                    <h2>ART AND STYLE</h2>
+                                    <p>He considers his paintings <span>"emotional abstracts"</span>.Focusing his art on the mix of colors and textures,
+                                    he creates <span>abstract paintings</span> and original <span>"sculptured" paintings</span>,
+                                    inspired by the master works of his father Carlo Vitali, a well known painter in the Italian and international art scene.</p>
+                                </div>
+                                <div class="picture">
+                                    <img src="resources/img/tommyjpg.jpg" class="photo" alt="tommy">
+                                </div>
+                                 
                         </div>
                         
-                        <img src="resources/img/tommyjpg.jpg" class="photo" id="photoSmall" alt="tommy">
+                       
                     </div>
 
-                    <div class="bg-modal" id="myModal">
-                        <p>Tommaso Vitali in his studio</p>
-                        <span id ="closeBtn" class="close">&times;</span>
-                        <img class="modal-content" id="img01">
-                    </div>
+                    
 
                     
             
                 </section>
 
                 <section class="abstractpaintings">
-                    <h1>Abstract paintings</h1>
-                    <div class="painting1">
-                        <div class="description">
-                            <p><span>"AMADEUS" PAINTING</span></p>
-                            <p>TECNIQUE:ACRYLIC AND GOLD LEAF ON CANVAS</p>
-                            <p>SIZE: 80X60CM</p>
-                            <p>SOLD</p>
+                    <a id="paintingslink"></a>
+                    <h2>paintings</h2>
+                    <div class="painting">
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                        <a href="resources/images/stargatebig.jpg" data-lightbox="Stargate" data-title="Stargate"><img  src="resources/img/stargate.jpg" class="photo" alt="ra"></a>
+                        <div class="thumbs">
+                        <a href="resources/images/IMG_1534bis2.jpg" data-lightbox="Stargate" data-title="Stargate"> <img  src="resources/img/stargatesmall.jpg" alt="lotus1"></a>   
+                        <a href="resources/images/stargatewall.jpg" data-lightbox="Stargate" data-title="Stargate"> <img  src="resources/img/stargatesmall2.jpg" alt="lotus2"></a>   
                         </div>
-                            
-                            <div class="paintingphotos">
-                                <div class="photos">
-                                    <img src="resources/img/sons.jpg"  alt="">
-                                </div>
-                                <div class="photos">
-                                    <img src="resources/img/sons.jpg"  alt="">
-                                </div>
-                                <div class="photos">
-                                    <img src="resources/img/sons.jpg"  alt="">
-                                </div>
-                                
-                                
-                            </div>
-                            <div class="buy">
-                                <p>NOT AVAILABLE</p>
-                                
+                    </div>
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>stargate</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>70x90 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic, gold leaf and clay on canvas</p>
+                                    </ul>
+                                    <h3>SOLD</h3>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="line">
+
+                    </div>
+
+                    <div class="painting">
+                        
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>immaginazione</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>100x80 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic on canvas</p>
+                                    </ul>
+                                    <h3>AVAILABLE</h3>
+                                    <div class="available">
+                                        
+                                    <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                    </div>
+                        </div>
+
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                            <a href="resources/images/immaginazione.jpg" data-lightbox="Immaginazione" data-title="Immaginazione"><img  src="resources/img/immaginazionesmall.jpg" class="photo" alt="ra"></a>
+                            <div class="thumbs">
+                            <a href="resources/images/immaginazione2.jpg" data-lightbox="Immaginazione" data-title="Immaginazione"> <img  src="resources/img/immaginazione2small.jpg" alt="lotus1"></a>   
+                            <a href="resources/images/immaginazione3.jpg" data-lightbox="Immaginazione" data-title="Immaginazione"> <img  src="resources/img/immaginazione3small.jpg" alt="lotus2"></a>   
                             </div>
                         </div>
                     </div>
+                    <div class="line">
+
+                        
+                    </div>
+
+
+
+
+                    <div class="painting">
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                        <a href="resources/images/reddeath.jpg" data-lightbox="RedDeath" data-title="Red Death"><img  src="resources/img/reddeath.jpg" class="photo" alt="ra"></a>
+                        <div class="thumbs">
+                        <a href="resources/images/reddeath2.jpg" data-lightbox="RedDeath" data-title="Red Death Detail"> <img  src="resources/img/reddeath2small.jpg" alt="lotus1"></a>   
+                        <a href="resources/images/reddeath3.jpg" data-lightbox="RedDeath" data-title="Red Death Detail"> <img  src="resources/img/reddeath3small.jpg" alt="lotus2"></a>   
+                        </div>
+                    </div>
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>Red death</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>60x70 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic and gold leaf on canvas</p>
+                                    </ul>
+                                    <h3>SOLD</h3>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="line">
+
+                    </div>
+
+                    <div class="painting">
+                        
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>Bushido</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>70x50 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic and clay on canvas</p>
+                                    </ul>
+                                    <h3>AVAILABLE</h3>
+                                    <div class="available">
+                                        
+                                    <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                    </div>
+                        </div>
+
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                            <a href="resources/images/bushido.jpg" data-lightbox="Bushido" data-title="Bushido"><img  src="resources/img/bushido1.jpg" class="photo" alt="ra"></a>
+                            <div class="thumbs">
+                            <a href="resources/images/bushido2.jpg" data-lightbox="Bushido" data-title="Bushido"> <img  src="resources/img/bushido2small.jpg" alt="lotus1"></a>   
+                            <a href="resources/images/bushido3.jpg" data-lightbox="Bushido" data-title="Bushido"> <img  src="resources/img/bushido3small.jpg" alt="lotus2"></a>
+                            <a href="resources/images/bushido4.jpg" data-lightbox="Bushido" data-title="Bushido Details"> <img  src="resources/img/bushido4small.jpg" alt="lotus2"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+
+                        
+                    </div>
+                    <section class="video">
+                        <h3>the making of Amadeus</h3>
+                        <video autoplay muted loop>
+                            <source src="resources/img/video.mp4" type="video/mp4">
+                          </video>
+                          <div class="linevideo">
+
+                        
+                        </div>
+                    </section>
+
+                    <div class="painting">
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                        <a href="resources/images/sonsofodin.jpg" data-lightbox="Sonsofodin" data-title="Sons Of Odin"><img  src="resources/img/sonsofodinsmall.jpg" class="photo" alt="ra"></a>
+                        <div class="thumbs">
+                        <a href="resources/images/sons.jpg" data-lightbox="Sonsofodin" data-title="Sons Of Odin"> <img  src="resources/img/sonssmall.jpg" alt="lotus1"></a>   
+                           
+                        </div>
+                    </div>
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>Sons of odin</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>70x50 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic and copper leaf on canvas</p>
+                                    </ul>
+                                    <h3>AVAILABLE</h3>
+                                    <div class="available">
+                                        
+                                    <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                    </div>
+                                    
+                                   
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="line">
+
+                    </div>
+
+                    <div class="painting">
+                        
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>Amadeus</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>70x90 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic and gold leaf on canvas</p>
+                                    </ul>
+                                    <h3>Sold</h3>
+                                    
+                        </div>
+
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                            <a href="resources/images/amadeus.jpg" data-lightbox="Amadeus" data-title="Amadeus"><img  src="resources/img/amadeussmall.jpg" class="photo" alt="ra"></a>
+                            <div class="thumbs">
+                            <a href="resources/images/amadeus2-1.jpg" data-lightbox="Amadeus" data-title="Amadeus"> <img  src="resources/img/amadeus2small.jpg" alt="lotus1"></a>   
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+
+                        
+                    </div>
+
+                    
+                    <div class="painting">
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                            <a href="resources/images/ra.jpg" data-lightbox="Ra" data-title="RA"><img  src="resources/img/rasmall.jpg" class="photo" alt="ra"></a>
+                        <div class="thumbs">
+                        <a href="resources/images/provadivano2.jpg" data-lightbox="Ra" data-title="RA"> <img  src="resources/img/radivanosmall.jpg" alt="lotus1"></a>
+                        <a href="resources/images/ra2.jpg" data-lightbox="Ra" data-title="RA detail"> <img  src="resources/img/ra2small.jpg"      alt="lotus1"></a>   
+                           
+                        </div>
+                    </div>
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>ra</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>80x60 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic and gold leaf on canvas</p>
+                                    </ul>
+                                    <h3>Sold</h3>
+                                    
+                                    
+                                   
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="line">
+
+                    </div>
+
+                    <div class="painting">
+                        
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>Empire of the clouds</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>80x80 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic and gold leaf on canvas</p>
+                                    </ul>
+                                    <h3>AVAILABLE</h3>
+                                    <div class="available">
+                                        
+                                    <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                    </div>
+                                    
+                        </div>
+
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                            <a href="resources/images/empire.jpg" data-lightbox="Empire" data-title="Empire of the Clouds"><img  src="resources/img/empiresmall.jpg" class="photo" alt="ra"></a>
+                            <div class="thumbs">
+                            <a href="resources/images/clouds.jpg" data-lightbox="Empire" data-title="details"> <img  src="resources/img/cloudssmall.jpg" alt="lotus1"></a>
+                            <a href="resources/images/clouds2.jpg" data-lightbox="Empire" data-title="details"> <img  src="resources/img/clouds2small.jpg" alt="lotus1"></a>
+                            <a href="resources/images/clouds3.jpg" data-lightbox="Empire" data-title="details"> <img  src="resources/img/clouds3small.jpg" alt="lotus1"></a>      
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+
+                        
+                    </div>
+
+                    <section class="video">
+                        <h3>TOMMASO VITALI AT WORK</h3>
+                        <div class="video2">
+                            <video autoplay muted loop>
+                                <source src="resources/img/videomaking.mp4" type="video/mp4">
+                                    
+                              </video>
+                              <video autoplay muted loop>
+                                <source src="resources/img/videomaking2.mp4" type="video/mp4">
+                                    
+                              </video>
+                        </div>
+                        
+                          <div class="linevideo">
+
+                        
+                        </div>
+                    </section>
+
+                    <div class="painting">
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                            <a href="resources/images/deepblue.jpg" data-lightbox="deepblue" data-title="Deep Blue"><img  src="resources/img/deepbluesmall.jpg" class="photo" alt="ra"></a>
+                        <div class="thumbs">
+                        <a href="resources/images/deepblue2.jpg" data-lightbox="deepblue" data-title="Deep Blue"> <img  src="resources/img/deepbluesmall2.jpg" alt="lotus1"></a>
+                        <a href="resources/images/deepblue3.jpg" data-lightbox="deepblue" data-title="Deep Blue"> <img  src="resources/img/deepbluesmall3.jpg"      alt="lotus1"></a> 
+                        <a href="resources/images/deepblue4.jpg" data-lightbox="deepblue" data-title="Deep Blue"> <img  src="resources/img/deepbluesmall4.jpg"      alt="lotus1"></a>   
+                           
+                        </div>
+                    </div>
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>DEEP BLUE</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>30x30 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic and gold leaf on canvas</p>
+                                    </ul>
+                                    <h3>AVAILABLE</h3>
+                                    <div class="available">
+                                        
+                                        <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                        </div>
+                                    
+                                    
+                                   
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="line">
+
+                    </div>
+
+                    <div class="painting">
+                        
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>Mediceo</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>50x60 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic and clay on canvas</p>
+                                    </ul>
+                                    <h3>Sold</h3>
+                                    
+                                    
+                        </div>
+
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                            <a href="resources/images/mediceo.jpg" data-lightbox="Mediceo" data-title="Mediceo"><img  src="resources/img/mediceosmall.jpg" class="photo" alt="ra"></a>
+                            <div class="thumbs">
+                            <a href="resources/images/mediceo2.jpg" data-lightbox="Mediceo" data-title="Mediceo"> <img  src="resources/img/medicesmall2.jpg" alt="lotus1"></a>   
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+
+                        
+                    </div>
+
+                    <div class="painting">
+                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
+                            <a href="resources/images/blackgold.jpg" data-lightbox="blackgold" data-title="Black Gold"><img  src="resources/img/blackgoldsmalljpg.jpg" class="photo" alt="ra"></a>
+                        <div class="thumbs">
+                        <a href="resources/images/blackgold2.jpg" data-lightbox="blackgold" data-title="Black Gold"> <img  src="resources/img/blackgold2smalljpg.jpg" alt="lotus1"></a>
+                        <a href="resources/images/blackgold3.jpg" data-lightbox="blackgold" data-title="Black Gold"> <img  src="resources/img/blackgold3smalljpg.jpg"      alt="lotus1"></a> 
+                        <a href="resources/images/blackgold4.jpg" data-lightbox="blackgold" data-title="Black Gold"> <img  src="resources/img/blackgold4smalljpg.jpg"      alt="lotus1"></a>   
+                           
+                        </div>
+                    </div>
+                        <div class="details" data-aos="fade-left" data-aos-offset="1">
+                            <h2>Black Gold</h2>
+                                    <ul>
+                                        <li>Size:</li>
+                                        <p>60x70 cm</p>
+                                        <li>Technique:</li>
+                                        <p>Acrylic and gold leaf on canvas</p>
+                                    </ul>
+                                    <h3>AVAILABLE</h3>
+                                    <div class="available">
+                                        
+                                        <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                        </div>
+                                    
+                                    
+                                   
+                        </div>
+                        
+                        
+                    </div>
+                   
+                    <a id="contactslink"></a>
+                    <section class="contactform">
+                        
+                        <div class="contacts">
+                            <div class="form">
+                                <p>CONTACTS</p>
+                                    <form id="contact-form" method="post" action="contact-form-handler.php">
+                                        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+                                        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+                                        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+                                        <input type="submit" id="submit" class="form-control submit" value="Send Message" disabled="disabled">
+                                        <div class="email">
+                                            <div class="robot">
+                                                <input id="check" type="checkbox" > <p>click to prove me you are not sending me spam</p>  <br>
+                                            </div>
+                                            
+                                            <p>or send an email at <span> tommyvitaly@gmail.com</span></p>
+                                        </div>
+                                        
+
+                                        </form>
+                            </div>
+                        </div>
+
+
+                    </section>
+
+                    <section class="moreart">
+                        <div class="music">
+                            <div class="musicphoto">
+                                <img src="resources/img/tommyrock.jpg" alt="tommyrock">
+                            </div>
+                        </div>
+                        <div class="musiclink">
+                            <h3>tommaso vitali and music</h3>
+                                <p>Tommaso Vitali is also a well known musician and guitar player in the rock and heavy metal scene.<br/>Check out his personal music page for more info</p>
+                                <a href="http://www.tommyvitaly.com/" target="blank">www.tommyvitaly.com</a>
+                                <img src="resources/img/logovitaly.png" alt="logovitaly">
+                        </div>
+
+                        
+                        
+                    </section>
+
+                    <section class="footersection">
+                        <footer>
+                            <div class="footerright">
+                                   
+                                    <div class="footerlogo" aos="fade-up" data-aos-offset="1">
+                                        <img data-tilt src="resources/img/Tv2.png" alt="logofooter">
+                                    </div>
+                            </div>
+                            <div class="footerleft">
+                                    <div class="socialfooter">
+                                        <p>FOLLOW ME ON FACEBOOK AND INSTRAGRAM</p>
+                                        <a href="#" class="icons"><i class="fab fa-facebook"></i></a> 
+                                        <a href="#" class="icons"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                    <div class="copyright">
+                                        <p>Copyright &copy; 2020 Tommaso Vitali</p>
+                                    </div>
+                            </div>
+                          
+                           
+                        </footer>
+                    </section>
+
+                    
+                    
                 </section>
+                
+                
+                
                 
 
         </div>
         
-        <header>
-            
-        </header>
         
+        <script src="resources/js/lightbox-plus-jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="resources/js/tilt.jquery.js"></script>
+        <script type="text/javascript" src="resources/js/aos.js"></script>
+        <script>
+            AOS.init({
+                duration:1000,
+                
+            });
+            </script>
+            
         <script type="text/javascript" src="resources/js/script.js"></script>
     </body>
   
