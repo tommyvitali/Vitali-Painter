@@ -8,6 +8,7 @@
     <head>
         
         <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="description" content="The official page for the italian abstract painter Tommaso Vitali.Best art from Italy.">
         
         <link rel="stylesheet" href="dist/magnific-popup.css">
         
@@ -17,6 +18,26 @@
         <link rel="stylesheet" type="text/css" href="resources/css/aos.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="resoruces/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="resources/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="resources/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="resources/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="resources/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="resources/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="resources/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="resources/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="resources/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="resources/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
         <script src="https://kit.fontawesome.com/e4ab9ad31f.js"></script>
         
         
@@ -35,7 +56,7 @@
                         
                         <div class="logo">
                             <img data-tilt data-tilt-scale="1.1" src="resources/img/Tv2.png" alt="logo">
-
+                            <div class="menu-toggle"></div>
                             <nav>
                                     <ul class="main-nav">
                                             <li data-aos="fade-zoom-in"><a href="#aboutlink">ABOUT</a></li>
@@ -65,22 +86,28 @@
                     
                 </header>
 
-                <section class="aboutsection" >
+                <section class="aboutsection" id="aboutsection" >
                     
                     <a id="aboutlink"></a>
                     
-                    <div class="about">
-                        <div class="whois">
-                                <div class="text">
+                    <div class="about" id="about">
+                        <div class="whois" id="whois">
+                                <div class="text" id="text">
                                     <h2>ABOUT TOMMASO VITALI</h2>
+                                    <div class="divider">
+                                        <img src="resources/img/dividersmall2.png" alt="divider">
+                                    </div>
                                     <p>Tommaso Vitali was born in Florence (ITALY) in 1974.He developed interest in art since very young age.He started with the study of classical music, and only later he got close to visual arts.<br></p>
-                                    <h2>ART AND STYLE</h2>
-                                    <p>He considers his paintings <span>"emotional abstracts"</span>.Focusing his art on the mix of colors and textures,
+                                    <h2 data-aos="fade-up" data-aos-offset="1">ART AND STYLE</h2>
+                                    <div data-aos="fade-up" data-aos-offset="1" class="divider">
+                                        <img src="resources/img/dividersmall2.png" alt="divider">
+                                    </div>
+                                    <p data-aos="fade-up" data-aos-offset="1">He considers his paintings <span>"emotional abstracts"</span>.Focusing his art on the mix of colors and textures,
                                     he creates <span>abstract paintings</span> and original <span>"sculptured" paintings</span>,
                                     inspired by the master works of his father Carlo Vitali, a well known painter in the Italian and international art scene.</p>
                                 </div>
                                 <div class="picture">
-                                    <img src="resources/img/tommyjpg.jpg" class="photo" alt="tommy">
+                                    <img data-aos="fade-left" data-aos-offset="1" src="resources/img/tommyjpg.jpg" alt="tommy">
                                 </div>
                                  
                         </div>
@@ -98,8 +125,8 @@
                     <a id="paintingslink"></a>
                     <h2>paintings</h2>
                     <div class="painting">
-                        <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                        <a href="resources/images/stargatebig.jpg" data-lightbox="Stargate" data-title="Stargate"><img  src="resources/img/stargate.jpg" class="photo" alt="ra"></a>
+                        <div class="paintingpic"   data-aos="fade-up" data-aos-offset="1">
+                        <a href="resources/images/stargatebig.jpg" data-lightbox="Stargate" data-title="Stargate"><img id="photo"  src="resources/img/stargate.jpg" class="photo" alt="ra"></a>
                         <div class="thumbs">
                         <a href="resources/images/IMG_1534bis2.jpg" data-lightbox="Stargate" data-title="Stargate"> <img  src="resources/img/stargatesmall.jpg" alt="lotus1"></a>   
                         <a href="resources/images/stargatewall.jpg" data-lightbox="Stargate" data-title="Stargate"> <img  src="resources/img/stargatesmall2.jpg" alt="lotus2"></a>   
@@ -132,15 +159,15 @@
                                         <li>Technique:</li>
                                         <p>Acrylic on canvas</p>
                                     </ul>
-                                    <h3>AVAILABLE</h3>
-                                    <div class="available">
+                                    <a href="#contactslink"><h3>AVAILABLE</h3></a>        
+                                    <div class="available" id="availablewhite">
                                         
-                                    <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                    <i class="far fa-envelope"> </i> <a href="#contactslink"> <p class="forcontacts"> for info please contact <span>tommyvitaly@gmail.com</span></p></a>
                                     </div>
                         </div>
 
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                            <a href="resources/images/immaginazione.jpg" data-lightbox="Immaginazione" data-title="Immaginazione"><img  src="resources/img/immaginazionesmall.jpg" class="photo" alt="ra"></a>
+                            <a href="resources/images/immaginazione.jpg" data-lightbox="Immaginazione" data-title="Immaginazione"><img id="photo1" src="resources/img/immaginazionesmall.jpg" class="photo" alt="ra"></a>
                             <div class="thumbs">
                             <a href="resources/images/immaginazione2.jpg" data-lightbox="Immaginazione" data-title="Immaginazione"> <img  src="resources/img/immaginazione2small.jpg" alt="lotus1"></a>   
                             <a href="resources/images/immaginazione3.jpg" data-lightbox="Immaginazione" data-title="Immaginazione"> <img  src="resources/img/immaginazione3small.jpg" alt="lotus2"></a>   
@@ -157,7 +184,7 @@
 
                     <div class="painting">
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                        <a href="resources/images/reddeath.jpg" data-lightbox="RedDeath" data-title="Red Death"><img  src="resources/img/reddeath.jpg" class="photo" alt="ra"></a>
+                        <a href="resources/images/reddeath.jpg" data-lightbox="RedDeath" data-title="Red Death"><img id="photo2" src="resources/img/reddeath.jpg" class="photo" alt="ra"></a>
                         <div class="thumbs">
                         <a href="resources/images/reddeath2.jpg" data-lightbox="RedDeath" data-title="Red Death Detail"> <img  src="resources/img/reddeath2small.jpg" alt="lotus1"></a>   
                         <a href="resources/images/reddeath3.jpg" data-lightbox="RedDeath" data-title="Red Death Detail"> <img  src="resources/img/reddeath3small.jpg" alt="lotus2"></a>   
@@ -190,15 +217,15 @@
                                         <li>Technique:</li>
                                         <p>Acrylic and clay on canvas</p>
                                     </ul>
-                                    <h3>AVAILABLE</h3>
-                                    <div class="available">
+                                    <a href="#contactslink"><h3>AVAILABLE</h3></a> 
+                                    <div class="available" id="availablewhite">
                                         
-                                    <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                        <i class="far fa-envelope"> </i> <a href="#contactslink"> <p class="forcontacts"> for info please contact <span>tommyvitaly@gmail.com</span></p></a>
                                     </div>
                         </div>
 
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                            <a href="resources/images/bushido.jpg" data-lightbox="Bushido" data-title="Bushido"><img  src="resources/img/bushido1.jpg" class="photo" alt="ra"></a>
+                            <a href="resources/images/bushido.jpg" data-lightbox="Bushido" data-title="Bushido"><img id="photo3"  src="resources/img/bushido1.jpg" class="photo" alt="ra"></a>
                             <div class="thumbs">
                             <a href="resources/images/bushido2.jpg" data-lightbox="Bushido" data-title="Bushido"> <img  src="resources/img/bushido2small.jpg" alt="lotus1"></a>   
                             <a href="resources/images/bushido3.jpg" data-lightbox="Bushido" data-title="Bushido"> <img  src="resources/img/bushido3small.jpg" alt="lotus2"></a>
@@ -215,15 +242,16 @@
                         <video autoplay muted loop>
                             <source src="resources/img/video.mp4" type="video/mp4">
                           </video>
-                          <div class="linevideo"  id="line" class="linewhite">
+                          
+                    </section>
+                    <div class="linevideo"  id="line" class="linewhite">
 
                         
-                        </div>
-                    </section>
+                    </div>
 
                     <div class="painting">
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                        <a href="resources/images/sonsofodin.jpg" data-lightbox="Sonsofodin" data-title="Sons Of Odin"><img  src="resources/img/sonsofodinsmall.jpg" class="photo" alt="ra"></a>
+                        <a href="resources/images/sonsofodin.jpg" data-lightbox="Sonsofodin" data-title="Sons Of Odin"><img  id="photo4" src="resources/img/sonsofodinsmall.jpg" class="photo" alt="ra"></a>
                         <div class="thumbs">
                         <a href="resources/images/sons.jpg" data-lightbox="Sonsofodin" data-title="Sons Of Odin"> <img  src="resources/img/sonssmall.jpg" alt="lotus1"></a>   
                            
@@ -237,10 +265,10 @@
                                         <li>Technique:</li>
                                         <p>Acrylic and copper leaf on canvas</p>
                                     </ul>
-                                    <h3>AVAILABLE</h3>
-                                    <div class="available">
+                                    <a href="#contactslink"><h3>AVAILABLE</h3></a> 
+                                    <div class="available" id="availablewhite">
                                         
-                                    <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                        <i class="far fa-envelope"> </i> <a href="#contactslink"> <p class="forcontacts"> for info please contact <span>tommyvitaly@gmail.com</span></p></a>
                                     </div>
                                     
                                    
@@ -267,7 +295,7 @@
                         </div>
 
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                            <a href="resources/images/amadeus.jpg" data-lightbox="Amadeus" data-title="Amadeus"><img  src="resources/img/amadeussmall.jpg" class="photo" alt="ra"></a>
+                            <a href="resources/images/amadeus.jpg" data-lightbox="Amadeus" data-title="Amadeus"><img id="photo5"  src="resources/img/amadeussmall.jpg" class="photo" alt="ra"></a>
                             <div class="thumbs">
                             <a href="resources/images/amadeus2-1.jpg" data-lightbox="Amadeus" data-title="Amadeus"> <img  src="resources/img/amadeus2small.jpg" alt="lotus1"></a>   
                             
@@ -282,9 +310,9 @@
                     
                     <div class="painting">
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                            <a href="resources/images/ra.jpg" data-lightbox="Ra" data-title="RA"><img  src="resources/img/rasmall.jpg" class="photo" alt="ra"></a>
+                            <a href="resources/images/ra.jpg" data-lightbox="Ra" data-title="RA"><img id="photo6"  src="resources/img/rasmall.jpg" class="photo" alt="ra"></a>
                         <div class="thumbs">
-                        <a href="resources/images/provadivano2.jpg" data-lightbox="Ra" data-title="RA"> <img  src="resources/img/radivanosmall.jpg" alt="lotus1"></a>
+                        <a href="resources/images/provadivano3.jpg" data-lightbox="Ra" data-title="RA"> <img  src="resources/img/radivanosmall.jpg" alt="lotus1"></a>
                         <a href="resources/images/ra2.jpg" data-lightbox="Ra" data-title="RA detail"> <img  src="resources/img/ra2small.jpg"      alt="lotus1"></a>   
                            
                         </div>
@@ -319,16 +347,16 @@
                                         <li>Technique:</li>
                                         <p>Acrylic and gold leaf on canvas</p>
                                     </ul>
-                                    <h3>AVAILABLE</h3>
-                                    <div class="available">
+                                    <a href="#contactslink"><h3>AVAILABLE</h3></a> 
+                                    <div class="available" id="availablewhite">
                                         
-                                    <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
+                                        <i class="far fa-envelope"> </i> <a href="#contactslink"> <p class="forcontacts"> for info please contact <span>tommyvitaly@gmail.com</span></p></a>
                                     </div>
                                     
                         </div>
 
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                            <a href="resources/images/empire.jpg" data-lightbox="Empire" data-title="Empire of the Clouds"><img  src="resources/img/empiresmall.jpg" class="photo" alt="ra"></a>
+                            <a href="resources/images/empire.jpg" data-lightbox="Empire" data-title="Empire of the Clouds"><img id="photo7"  src="resources/img/empiresmall.jpg" class="photo" alt="ra"></a>
                             <div class="thumbs">
                             <a href="resources/images/clouds.jpg" data-lightbox="Empire" data-title="details"> <img  src="resources/img/cloudssmall.jpg" alt="lotus1"></a>
                             <a href="resources/images/clouds2.jpg" data-lightbox="Empire" data-title="details"> <img  src="resources/img/clouds2small.jpg" alt="lotus1"></a>
@@ -345,11 +373,11 @@
                     <section class="video">
                         <h3>TOMMASO VITALI AT WORK</h3>
                         <div class="video2">
-                            <video autoplay muted loop>
+                            <video class="video3" id="video" autoplay muted loop>
                                 <source src="resources/img/videomaking.mp4" type="video/mp4">
                                     
                               </video>
-                              <video autoplay muted loop>
+                              <video class="video3" id="video1" autoplay muted loop>
                                 <source src="resources/img/videomaking2.mp4" type="video/mp4">
                                     
                               </video>
@@ -363,7 +391,7 @@
 
                     <div class="painting">
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                            <a href="resources/images/deepblue.jpg" data-lightbox="deepblue" data-title="Deep Blue"><img  src="resources/img/deepbluesmall.jpg" class="photo" alt="ra"></a>
+                            <a href="resources/images/deepblue.jpg" data-lightbox="deepblue" data-title="Deep Blue"><img id="photo8"  src="resources/img/deepbluesmall.jpg" class="photo" alt="ra"></a>
                         <div class="thumbs">
                         <a href="resources/images/deepblue2.jpg" data-lightbox="deepblue" data-title="Deep Blue"> <img  src="resources/img/deepbluesmall2.jpg" alt="lotus1"></a>
                         <a href="resources/images/deepblue3.jpg" data-lightbox="deepblue" data-title="Deep Blue"> <img  src="resources/img/deepbluesmall3.jpg"      alt="lotus1"></a> 
@@ -379,11 +407,11 @@
                                         <li>Technique:</li>
                                         <p>Acrylic and gold leaf on canvas</p>
                                     </ul>
-                                    <h3>AVAILABLE</h3>
-                                    <div class="available">
+                                    <a href="#contactslink"><h3>AVAILABLE</h3></a> 
+                                    <div class="available" id="availablewhite">
                                         
-                                        <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
-                                        </div>
+                                        <i class="far fa-envelope"> </i> <a href="#contactslink"> <p class="forcontacts"> for info please contact <span>tommyvitaly@gmail.com</span></p></a>
+                                    </div>
                                     
                                     
                                    
@@ -411,7 +439,7 @@
                         </div>
 
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                            <a href="resources/images/mediceo.jpg" data-lightbox="Mediceo" data-title="Mediceo"><img  src="resources/img/mediceosmall.jpg" class="photo" alt="ra"></a>
+                            <a href="resources/images/mediceo.jpg" data-lightbox="Mediceo" data-title="Mediceo"><img id="photo9" src="resources/img/mediceosmall.jpg" class="photo" alt="ra"></a>
                             <div class="thumbs">
                             <a href="resources/images/mediceo2.jpg" data-lightbox="Mediceo" data-title="Mediceo"> <img  src="resources/img/medicesmall2.jpg" alt="lotus1"></a>   
                             
@@ -425,7 +453,7 @@
 
                     <div class="painting">
                         <div class="paintingpic" data-aos="fade-up" data-aos-offset="1">
-                            <a href="resources/images/blackgold.jpg" data-lightbox="blackgold" data-title="Black Gold"><img  src="resources/img/blackgoldsmalljpg.jpg" class="photo" alt="ra"></a>
+                            <a href="resources/images/blackgold.jpg" data-lightbox="blackgold" data-title="Black Gold"><img id="photo10"  src="resources/img/blackgoldsmalljpg.jpg" class="photo" alt="ra"></a>
                         <div class="thumbs">
                         <a href="resources/images/blackgold2.jpg" data-lightbox="blackgold" data-title="Black Gold"> <img  src="resources/img/blackgold2smalljpg.jpg" alt="lotus1"></a>
                         <a href="resources/images/blackgold3.jpg" data-lightbox="blackgold" data-title="Black Gold"> <img  src="resources/img/blackgold3smalljpg.jpg"      alt="lotus1"></a> 
@@ -441,11 +469,11 @@
                                         <li>Technique:</li>
                                         <p>Acrylic and gold leaf on canvas</p>
                                     </ul>
-                                    <h3>AVAILABLE</h3>
-                                    <div class="available">
+                                    <a href="#contactslink"><h3>AVAILABLE</h3></a> 
+                                    <div class="available" id="availablewhite">
                                         
-                                        <i class="far fa-envelope"> </i><p class="forcontacts">for info please contact <span>tommyvitaly@gmail.com</span></p>
-                                        </div>
+                                        <i class="far fa-envelope"> </i> <a href="#contactslink"> <p class="forcontacts"> for info please contact <span>tommyvitaly@gmail.com</span></p></a>
+                                     </div>
                                     
                                     
                                    
@@ -458,6 +486,7 @@
                     <section class="contactform">
                         
                         <div class="contacts">
+                            
                             <div class="form">
                                 <p>CONTACTS</p>
                                     <form id="contact-form" method="post" action="contact-form-handler.php">
@@ -502,10 +531,11 @@
                                     </div>
                             
                           
-                           
+                           <div id="linefooter"></div
+                            >
                         </footer>
                     </section>
-                    <section class="mailchimp">
+                    <section class="mailchimp" id="mailchimp">
                            <!-- Begin Mailchimp Signup Form -->
                                 <div id="mc_embed_signup" class="mainsubscribe">
                                     <form action="https://gmail.us4.list-manage.com/subscribe/post?u=b327d27178ba313b34b10ee9f&amp;id=2e5f41b160" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -552,6 +582,21 @@
                 duration:1000,
                 
             });
+            </script>
+
+            <script>
+                $(document).ready(function(){
+                    $('.menu-toggle').click(function(){
+                        $('.menu-toggle').toggleClass('active');
+                        $('nav').toggleClass('active');
+                        
+                        $('.logo').toggleClass('active');
+                        $('.main-nav').toggleClass('active');
+                        $('.maintitle').toggleClass('active')
+                    })
+                }
+                    
+                )
             </script>
 
             

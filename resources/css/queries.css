@@ -1,0 +1,1085 @@
+/* big tablets to 1550px (width smaller than the 1140px row) */
+@media only screen and (max-width:1600px) {
+
+    .picture img {
+        width:80%;
+        
+      
+        
+      }
+
+      .text {
+        
+        top:5%;
+        }
+
+
+
+
+}
+
+
+
+/* big tablets to 1550px (width smaller than the 1140px row) */
+@media only screen and (max-width:1550px) {
+
+    .details h3 {
+        
+        
+        width:25%;
+       ;
+      }
+
+      .text {
+        
+        top:15%;
+        }
+
+        .text p {
+            padding:1rem;
+        }
+
+
+
+
+}
+
+/* big tablets to 1400px (width smaller than the 1140px row) */
+@media only screen and (max-width:1400px) {
+
+        header {
+            margin-bottom: 5rem;
+        }
+
+        
+        
+
+        h2 {
+            font-size:1.5vw;
+        }
+
+        .text p {
+            padding:0;
+        }
+
+        
+
+
+}
+
+/* big tablets to 1300px (width smaller than the 1140px row) */
+@media only screen and (max-width:1300px) {
+
+    .picture img {
+        width:70%;
+        
+      
+        
+      }
+
+  .text {
+    
+    top:10%;
+    }
+
+
+    .video {
+        padding:4rem 0rem 6rem 0rem;
+    }
+    .details h3 {
+        
+        
+        width:30%;
+       ;
+      }
+
+    .forcontacts {
+        font-size: 1.5vw;
+        padding:1rem 0rem 1rem 0;
+        
+    }
+
+    .details h2 {
+        padding:4rem 0 4rem 0;
+
+    }
+    
+
+    .details p {
+        font-size: 1.5vw;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+  
+    }
+
+    .available p {
+        padding-left: 0.5rem;
+    }
+
+      
+
+    .mailchimp p,
+    .indicates-required {
+        font-size: 1vw;
+        
+      }
+
+}
+
+
+/* big tablets to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width:1200px) {
+
+    
+    .picture img {
+        width:80%;
+        
+      
+        
+      }
+
+  .text {
+    
+    top:8%;
+    }
+
+    header {
+        height:38rem;
+    }
+
+    .details h3 {
+        
+        
+        width:38%;
+       ;
+      }
+
+    .logo img {
+        width:5rem;
+        }
+        
+
+        .toggle-container {
+            align-items: center;
+            margin-top: 1rem;
+        }
+
+    .toggle-container p {
+        font-size:0.9vw;
+       }
+       .toggle-container label {
+       
+        width: 40px;
+        height: 20px;
+     }
+     .toggle-container label:after {
+        content: '';
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        bottom:1px;
+        width: 19px;
+        height: 18px;
+        
+        border-radius: 80px;}
+
+        .whois {
+            padding:0;
+        }
+
+        .robot p {
+            
+            font-size: 0.9vw;
+            
+          }
+
+          .socialfooter p {
+              font-size: 1.5vw;
+          }
+
+          .fa-facebook,
+        .fa-instagram {
+        font-size: 6vw;
+        }
+        
+      
+}
+
+/* Small tablets to big tablets;from 768 to 1050px */
+@media only screen and (max-width:1050px) {
+
+    header {
+        margin-bottom: 4rem;
+    }
+
+    .logo {
+        padding:2rem 4rem 2rem 6rem;
+    }
+
+    .main-nav li  {
+        
+        font-size: 1vw;
+        
+        
+    }
+
+    .about {
+        padding:0;
+    }
+
+    .text p {
+        font-weight: bold;
+        font-size: 1vw;
+        
+    }
+
+    .whois {
+        padding:0;
+    }
+    .picture {
+        padding:0;
+    }
+
+    .video {
+        padding:2rem 0rem 2rem 0rem;
+    }
+
+    .details {
+        width:40%;
+
+    }
+
+    .paintingpic {
+        width:40%;
+    }
+
+    
+
+    .available {
+        max-width: 80%;
+        display: flex;
+        
+        
+        margin:0 auto;
+        padding:0 1rem 0 1rem;
+
+    }
+
+    .thumbs img {
+        padding:1rem 0rem 1rem 0rem;
+        width:28%;
+        
+    }
+
+    .forcontacts {
+        padding:1rem 0 1rem 0;
+    }
+
+    
+    
+
+    
+
+
+}
+
+/* Small tablets to big tablets;from 768 to 1000px */
+@media only screen and (max-width:1000px) {
+    
+    body {
+        padding:0;
+    }
+    .logo {
+        padding:2rem 4rem 2rem 4rem;
+    }
+    .toggle-container p {
+        font-size:1.1vw;
+       }
+    
+
+    .details {
+        width:40%;
+    }
+
+    .details h3 {
+        
+        
+        width:45%;
+       ;
+      }
+
+    .paintingpic {
+        width:40%;
+    }
+    
+
+
+    .details h2 {
+        padding:3rem 0 3rem 0;
+
+    }
+
+    
+    
+    
+    
+    
+    .abstractpaintings {
+        
+        margin-top: 2rem;
+    }
+    
+    
+
+    .thumbs img {
+        padding:1rem 1rem 1rem 1rem;
+        width:28%;
+        
+    }
+
+    .robot p {
+            
+        font-size: 1.2vw;
+        
+      }
+
+      .form p {
+          font-size: 2.2vw;
+      }
+
+      .form p span {
+          font-size: 1vw;
+      }
+
+      .robot p {
+          font-size: 1.2vw;
+      }
+
+      .contactform p:last-child {
+          font-size: 1.2vw;
+      }
+
+      .mailchimp input {
+        width:80%;
+        
+      }
+
+      .mailchimp p,
+    .indicates-required {
+        font-size: 1.3vw;
+        
+      }
+
+      .mainsubscribe {
+        width: 70%;
+        padding: 3rem 0 1rem 0;
+    }
+
+    .copyright {
+        font-size: 1.4vw;
+    }
+
+}
+
+/* Small tablets to big tablets;from 768 to 900px */
+@media only screen and (max-width:900px) {
+    
+    header {
+        height:30rem;
+    }
+
+    .logo {
+        padding:1.5rem 4rem 2rem 4rem;
+    }
+
+    .aboutsection {
+        padding:0;
+    }
+
+    .divider {
+        margin-bottom: 2rem;
+    }
+
+    .aboutsection {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .about h2 {
+        font-size: 2.8vw;
+    }
+
+    .about p {
+        margin-bottom: 3rem;
+    }
+
+    .whois {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .text {
+        display:block;
+        z-index: 0;
+        position: initial;
+        width:80%;
+
+    }
+
+    .text p {
+        font-size: 1.4vw;
+        text-align: center;
+    }
+
+   
+
+    .picture {
+        display:block;
+        text-align: center;
+        z-index: 0;
+        width:100%;
+        margin-top: 2rem;
+        
+        
+    }
+
+    
+
+    .abstractpaintings h2{
+        font-size: 7vw;
+        margin-bottom: 10rem;
+        
+    }
+
+    .painting {
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .painting h2 {
+        font-size: 4vw;
+        padding:1rem 0 1rem 0;
+        margin:0;
+        
+        
+        
+    }
+
+    .paintingpic {
+        width:80%;
+        margin-top: 2rem;
+    }
+
+    .thumbs {
+        margin-top: 1.5rem;
+    }
+
+    .details {
+        width:80%;
+        padding:6rem 0 0rem 0;
+        text-align: center;
+    }
+
+    .details h3 {
+        width:30%;
+    }
+
+    .details ul {
+        padding:0;
+        width:100%;
+    }
+
+    .details p {
+  
+        font-style: italic;
+        font-weight: 500;
+        letter-spacing: 2px;
+        word-spacing: 6px;
+        font-size: 3vw;
+        padding-bottom: 1rem;
+        
+      }
+
+    li{
+        max-width:100%;
+        list-style-type: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 3.5vw;
+        padding-bottom: 4px;
+      
+        
+        
+        
+      }
+
+      .video {
+          width:100%;
+          padding-bottom: 0;
+      }
+
+      .video h3 {
+          padding:3rem 0 6rem 0;
+          font-size: 4vw;
+          letter-spacing: 1px;
+          
+      }
+
+      
+
+      .available {
+          width:100%;
+          margin:0 auto;
+          padding:0;
+          
+      }
+
+      .available p {
+          font-size: 1.5vw;
+          word-spacing: 0;
+      }
+
+      .video2 {
+          flex-direction: column;
+          margin-bottom: 2rem;
+      }
+
+      .video2 video {
+          width:85%;
+          margin-bottom: 3rem;
+
+      }
+
+      .socialfooter p {
+          font-size: 3vw;
+      }
+
+      .mainsubscribe {
+          width:100%;
+      }
+
+      .mailchimp h2 {
+          font-size: 2vw;
+      }
+
+      .mailchimp p,
+    .indicates-required {
+        font-size: 1.8vw;
+        
+      }
+
+}
+
+
+/* Small phones to small tablets;from 587 to 767px */
+@media only screen and (max-width:767px) {
+
+    .maintitle {
+        font-size: 6vw;
+        padding-top: 1rem;
+    }
+
+    .secondtitle {
+        font-size: 2vw;
+    }
+
+    .logo {
+        padding:1.5rem 2rem 2rem 2rem;
+    }
+
+    .logo img {
+        width:4rem;
+        }
+
+    .main-nav li  {
+        
+        font-size: 1.3vw;
+        
+        
+        
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+    
+    
+    
+    letter-spacing: 1px;
+    
+    
+}
+
+.toggle-container p {
+    font-size:1.3vw;
+   }
+    .abstractpaintings {
+        padding:0 1rem;
+    }
+
+    .abstractpaintings h2{
+        font-size: 7vw;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+        
+    }
+
+    .details {
+        width:60%;
+        padding:6rem 0 0rem 0;
+        text-align: center;
+    }
+
+    .details h3 {
+        width:40%;
+    }
+
+    .details h2 {
+        font-size: 5.5vw;
+        margin-bottom: 2rem;
+    }
+
+    .available {
+        display:block;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .available p {
+        font-size: 2.2vw;
+        padding-top: 0;
+        
+    }
+
+    .contactform {
+        margin:1rem 0 0 0;
+    }
+
+    .contactform p {
+        font-size: 5vw;
+    }
+
+    .copyright p {
+        font-size: 2vw;
+    }
+
+    .robot p {
+        font-size: 1.5vw;
+    }
+
+    .contacts {
+        width:70%;
+    }
+
+    .submit {
+        width:50%;
+    }
+
+    .contactform p:last-child {
+        font-size: 1.5vw;
+    }
+
+    .mailchimp {
+        margin:0;
+    }
+}
+
+/* Small phone:from 0 to 586px */
+@media only screen and (max-width:586px) {
+
+    header {
+        height:25rem;
+        margin-bottom: 0;
+    }
+
+    .menu-toggle {
+        display:block;
+        border-radius: 4px;
+        width:35px;
+        height:35px;
+        margin:8px 10px 10px 10px;
+        background: linear-gradient(to right, rgba(182, 214, 189, 0.664), rgba(238, 222, 117, 0.794));
+        float:right;
+        cursor:pointer;
+        font-size:30px;
+        text-align: center;
+        color:black;
+    }
+
+    .menu-toggle:before {
+        content:'\f0c9';
+        font-family: fontAwesome;
+        line-height: 35px;
+    }
+
+    .menu-toggle.active:before {
+        content:'\f00d';
+        
+    }
+
+
+    .maintitle {
+        font-size: 8vw;
+        
+    }
+
+    .secondtitle {
+        font-size: 3vw;
+    }
+    .logo {
+        padding: 0.2rem 0.5rem 2.5rem 0.5rem;
+    }
+
+    .logo ul {
+        display:block;
+    }
+
+    .logo.active {
+        display:block;
+        margin:0 auto;
+        
+        
+    }
+
+    .logo.active ul {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .logo.active img {
+        margin-top: 6px;
+    }
+
+    .logo img {
+        width:3rem;
+        }
+
+        
+
+        nav {
+            padding-top:0.4rem;
+            display:none;
+            
+        }
+
+         nav.active {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 3px;
+            text-align: center;
+            word-spacing: 50px;
+            background-color: rgba(255, 255, 255, 0.589);
+            padding:0.5rem 3rem 0.5rem 3rem;
+            
+            animation:fadeIn 2s;
+            
+        } 
+
+        
+
+        
+
+        @-webkit-keyframes fadeIn {
+            from {
+              opacity: 0;
+            }
+          
+            to {
+              opacity: 1;
+            }
+          }
+          
+          @keyframes fadeIn {
+            from {
+              opacity: 0;
+            }
+          
+            to {
+              opacity: 1;
+            }
+          }
+
+        
+        
+
+        
+        
+        .main-nav li {
+            
+            font-size:3.6vw;
+            margin-left: 0.2rem;
+            letter-spacing: 0;
+            padding:0.8rem;
+            
+            
+        }
+
+        [data-aos^=fade][data-aos^=fade] {
+            opacity: 1;
+            transition-property: opacity,transform;
+        }
+
+        .maintitle.active {
+            display:none;
+        }
+        
+
+        
+
+        .toggle-container {
+            margin-top: 0;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            
+           }
+
+        .toggle-container p {
+            font-size:2.2vw;
+            font-weight: bold;
+            margin-right: 1rem;
+            word-spacing: 5px;
+           
+           }
+
+        .text p {
+            font-size:3vw;
+            
+        }
+
+        .divider {
+            padding:0;
+        }
+
+        .text {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .text h2 {
+
+            font-size: 5vw;
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 1rem;
+            letter-spacing: 2px;
+        }
+
+        .abstractpaintings {
+            margin-top: 5rem;
+        }
+
+        .abstractpaintings h2 {
+            margin-bottom:0;
+            
+        }
+
+        .painting {
+            margin-top: 1rem;
+        }
+
+       
+
+    .details {
+        display:block;
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .details h2 {
+        font-size: 10vw;
+        letter-spacing:0;
+        margin-top: 1rem;
+    }
+
+    .details h3 {
+        width:50%;
+    }
+
+    .details ul {
+        margin-top: 2rem;
+    }
+
+    .details ul li {
+        font-size:5vw;
+    }
+
+    .details ul p {
+        font-size:4vw;
+        letter-spacing: 1px;
+    }
+
+    .available {
+        
+        padding-top: 2rem;
+    }
+    .available p {
+        font-size: 3.5vw;
+        padding-top: 1rem;
+        
+    }
+
+    .thumbs img {
+        padding:1rem 1rem 1rem 1rem;
+        width:38%;
+        
+    }
+
+    .available p {
+        padding-top: 0.5rem;
+    }
+
+    .available a:hover {
+        color:inherit;
+      }
+    .video {
+        padding-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .video video {
+        width:100%;
+    }
+   
+
+    .video h3 {
+        font-size: 6vw;
+        padding-bottom: 2rem;
+        
+    }
+
+    .video2 {
+        margin-bottom: 0;
+    }
+
+    .video2 video {
+        margin-bottom: 1rem;
+        padding:0;
+        width:100%;
+    }
+
+    .contacts {
+        width:80%;
+    }
+
+    textarea {
+        padding:1rem;
+    }
+
+
+
+    form {
+        padding:0 0.4rem;
+        margin:0;
+        width:100%;
+    }
+
+    .contactform {
+        margin:0;
+    }
+
+    form input {
+        margin-bottom: 0.5rem;
+    }
+
+    .submit {
+        margin-top: 0.8rem;
+    }
+
+    .robot {
+        padding-left: 0.5rem;
+        padding-right: 0;
+        
+    }
+
+    .robot p {
+        font-size: 2.1vw;
+    }
+
+    .contacts {
+        width:90%;
+    }
+
+    .contacts p:last-child {
+        font-size: 2.3vw;
+    }
+
+    .contacts p span {
+        font-size: 2.3vw;
+    }
+
+    .footersection {
+        margin:0;
+    }
+
+    footer {
+        padding:0;
+    }
+
+    .socialfooter p {
+        font-size: 5vw;
+    }
+
+    .fa-facebook,
+        .fa-instagram {
+        font-size: 15vw;
+        }
+
+        .copyright p {
+            font-size: 2.5vw;
+        }
+    .mailchimp h2 {
+        letter-spacing: 1px;
+        font-size: 4vw;
+        margin:0;
+    }
+
+    .mailchimp label {
+        padding:1rem;
+    }
+
+    .mailchimp p {
+        font-size: 2.5vw;
+    }
+
+    .clear {
+        margin-top: 1rem;
+    }
+
+    .indicates-required {
+        font-size: 2.5vw;
+    }
+
+    input {
+        margin-right: 0;
+        -webkit-box-shadow: 4px 6px 5px 1px rgba(224,224,224,1);
+        -moz-box-shadow: 4px 6px 5px 1px rgba(224,224,224,1);
+        box-shadow: 4px 6px 5px 1px rgba(224,224,224,1);
+          
+        
+      }
+      
+      textarea {
+        
+        -webkit-box-shadow: 4px 6px 5px 1px rgba(224,224,224,1);
+        -moz-box-shadow: 4px 6px 5px 1px rgba(224,224,224,1);
+        box-shadow: 4px 6px 5px 1px rgba(224,224,224,1);
+      }
+           
+    
+        
+            
+        
+        
+        
+    }

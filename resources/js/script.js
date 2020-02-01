@@ -34,6 +34,9 @@ function myFunction() {
     var element = document.getElementById("line10");
     element.classList.toggle("linewhite");
 
+    var element = document.getElementById("linefooter");
+    element.classList.toggle("linewhite");
+
     var element = document.getElementById("details");
     element.classList.toggle("detailswhite");
     var element = document.getElementById("details1");
@@ -68,6 +71,57 @@ function myFunction() {
 
     var element = document.getElementById("copyright");
     element.classList.toggle("copyrightwhite");
+
+    var element = document.getElementById("mailchimp");
+    element.classList.toggle("mailchimpwhite");
+
+    var element = document.getElementById("aboutsection");
+    element.classList.toggle("aboutsectionwhite");
+
+    var element = document.getElementById("whois");
+    element.classList.toggle("whoiswhite");
+
+    var element = document.getElementById("text");
+    element.classList.toggle("textwhite");
+
+     var element = document.getElementById("photo");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo1");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo2");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo3");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo4");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo5");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo6");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo7");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo8");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo9");
+    element.classList.toggle("photowhite");
+    var element = document.getElementById("photo10");
+    element.classList.toggle("photowhite");
+
+    var element = document.getElementById("video");
+    element.classList.toggle("video3white");
+
+    var element = document.getElementById("video1");
+    element.classList.toggle("video3white"); 
+
+    var element = document.getElementById("availablewhite");
+    element.classList.toggle("availablewhite"); 
+
+    
+
+
+    
+
+    
  }
 
 
